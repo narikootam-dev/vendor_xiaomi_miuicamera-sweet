@@ -1,11 +1,11 @@
 #
 # Copyright (C) 2023-2025 The LineageOS Project
-#
+# Copyright (C) 2026 VoltageOS
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/miuicamera-toco/miuicamera-toco-vendor.mk)
+$(call inherit-product, vendor/xiaomi/miuicamera-sweet/miuicamera-sweet-vendor.mk)
 
 # Priv-app permission
 PRODUCT_COPY_FILES += \

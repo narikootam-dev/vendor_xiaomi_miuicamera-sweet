@@ -1,13 +1,13 @@
 #
 # Copyright (C) 2023-2025 The LineageOS Project
-#
+# Copyright (C) 2026 VoltageOS
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Inherit from the proprietary version
-include vendor/xiaomi/miuicamera-toco/BoardConfigVendor.mk
+include vendor/xiaomi/miuicamera-sweet/BoardConfigVendor.mk
 
-MIUICAMERA_PATH := device/xiaomi/miuicamera-toco
+MIUICAMERA_PATH := device/xiaomi/miuicamera-sweet
 
 # Malloc
 MALLOC_SVELTE := true
